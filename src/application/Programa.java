@@ -21,10 +21,10 @@ public class Programa {
 		}
 		// imprimir a lista
 		si.imprimir();
-		Integer x = si.PrimeiroValor();
-		Integer y=si.PenultimoValor();
+		Integer x = si.primeiroValor();
+		Integer y=si.penultimoValor();
 		System.out.println("Primeiro valor informado foi: " + x);
-		System.out.println("O segundo valor informado foi: "+y);
+		System.out.println("O penúltimo valor informado foi: "+y);
 
 		sc.close();
 
